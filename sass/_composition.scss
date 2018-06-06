@@ -1,0 +1,92 @@
+.container {
+	//position: relative;
+	margin: 50px;
+
+
+	.Heading {
+
+		h3 {
+			background-color: $LIGHT-GREY;
+			padding: 7px 10px;
+			@include fontSize($SIZE16);
+		}
+
+	}
+
+	.Composition {
+		.Composition_description {
+			margin-bottom: 20px;
+
+			.Composition_descText {
+				padding-top: 10px;
+				@include fontSize($SIZE14);
+				color: $GREY;
+			}
+		}
+	}
+
+}
+
+
+.Composition_body {
+	position: relative;
+	min-height: 300px;
+
+	.Composition_image{
+		//border:1px solid red;
+	}
+	.Composition_canvas {
+		position: absolute; top: 0; left: 0;
+		//height: 300px; width: 550px;
+		//border:1px solid green;
+
+
+	}
+
+	.Composition_pivot {
+		background-image: url("../images/dot.svg"); background-position: center ;background-repeat: no-repeat;
+		height: 10px;
+		width: 10px;
+		position: absolute;
+	}
+
+	.Composition_pivotPointList {
+		position: absolute; top: 35px; left: 300px;
+
+		.PivotList_item{
+			margin-bottom: 23px;
+
+			.PivotList_link{
+				border: 1px solid $GREY;
+				border-radius: 50%;
+				height: 20px; width: 20px;
+				@include fontSize($SIZE16);
+				//line-height: 1.5;
+				color: $GREY;
+				text-align: center;
+				background: $WHITE;
+				padding: 1px 3px 1px;
+
+				&.active {
+					color: $WHITE;
+					background: $GREY;
+				}
+			}
+		}
+	}
+
+}
+
+.PivotCount{
+
+	.PivotCount_DesktopCircle{
+		display: none;
+	}
+	.PivotCount_MobileCount{
+
+	}
+
+	.PivotCount_Title{
+		display: none;
+	}
+}

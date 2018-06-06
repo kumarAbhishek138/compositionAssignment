@@ -1,0 +1,66 @@
+[
+        {
+         "id":0,   
+         "nanoObjectId":"http://nano.springer.com/data/M4433063",
+         "noCmp":"http://nano.springer.com/data/S10118",
+         "compNum":"1",
+         "image":"em4",
+         "role":"raw materials",
+         "itemType":"Single Compound",
+         "formula":"H<sub>2</sub>O",
+         "name":"water",
+         "displayName":"water",
+         "pivotOrderNum":"1",
+         "x":60,
+         "y":149
+      },
+      {
+         "id":1,   
+         "nanoObjectId":"http://nano.springer.com/data/M4433063",
+         "noCmp":"http://nano.springer.com/data/S141059",
+         "compNum":"2",
+         "image":"em4",
+         "role":"raw materials",
+         "itemType":"Single Compound",
+         "formula":"C<sub>17</sub>H<sub>34</sub>O<sub>2</sub>",
+         "name":"isopropyl myristate",
+         "displayName":"isopropyl myristate",
+         "pivotOrderNum":"2",
+         "x":107,
+         "y":149
+      },
+      {
+         "id":2,   
+         "nanoObjectId":"http://nano.springer.com/data/M4433063",
+         "noCmp":"http://nano.springer.com/data/S4451845",
+         "compNum":"3",
+         "image":"em4",
+         "role":"raw materials",
+         "itemType":"Single Compound",
+         "formula":"C<sub>105</sub>H<sub>192</sub>O<sub>20</sub>",
+         "name":"PG5 oleate",
+         "displayName":"PG5 oleate",
+         "pivotOrderNum":"3",
+         "x":148,
+         "y":172
+      },
+      {
+         "id":3,   
+         "nanoObjectId":"http://nano.springer.com/data/M4433063",
+         "noCmp":"http://nano.springer.com/data/S837546",
+         "compNum":"4",
+         "image":"em4",
+         "role":"loaded material",
+         "itemType":"Single Compound",
+         "formula":"C<sub>6</sub>H<sub>5</sub>NO<sub>2</sub>",
+         "name":"nicotinic acid",
+         "displayName":"nicotinic acid",
+         "pivotOrderNum":"4",
+         "x":190,
+         "y":187
+      }
+]
+
+
+
+

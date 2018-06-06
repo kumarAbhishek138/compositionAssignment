@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="260px" height="260px" viewBox="0 0 260 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Em4 v2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="66.7993164%" cy="23.210982%" fx="66.7993164%" fy="23.210982%" r="77.6377093%" id="radialGradient-1">
+            <stop stop-color="#FFCDAE" offset="0%"></stop>
+            <stop stop-color="#FF9761" offset="82.1069834%"></stop>
+            <stop stop-color="#FC884D" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="13.6989651%" cy="22.0317903%" fx="13.6989651%" fy="22.0317903%" r="93.8133172%" id="radialGradient-2">
+            <stop stop-color="#FFFEFE" offset="0%"></stop>
+            <stop stop-color="#E6E1DF" offset="52.0730037%"></stop>
+            <stop stop-color="#CDCAC9" offset="83.6276307%"></stop>
+            <stop stop-color="#BBB9B8" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="118.030045%" cy="27.6298278%" fx="118.030045%" fy="27.6298278%" r="78.5834025%" id="radialGradient-3">
+            <stop stop-color="#D9E8EE" offset="0%"></stop>
+            <stop stop-color="#C3E9EB" offset="13.9968004%"></stop>
+            <stop stop-color="#4DA6CE" offset="86.6689254%"></stop>
+            <stop stop-color="#3F99C2" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="75.2039632%" cy="25.5657423%" fx="75.2039632%" fy="25.5657423%" r="77.7895605%" id="radialGradient-4">
+            <stop stop-color="#FFFAF6" offset="0%"></stop>
+            <stop stop-color="#1BE7D5" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Composition-Images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Em4-v2">
+            <g id="Em" transform="translate(50.000000, 21.000000)">
+                <path d="M80,218.966258 C124.18278,218.966258 160,183.149038 160,138.966258 C160,94.783478 101.433419,3.83508683e-15 80.0000011,0 C58.5665827,-3.59219172e-15 0,94.783478 0,138.966258 C0,183.149038 35.81722,218.966258 80,218.966258 Z" id="Oval-1" fill="url(#radialGradient-1)"></path>
+                <path d="M59.1550929,213.713667 C89.2283226,202.211912 110.584476,173.083083 110.584476,138.966258 C110.584476,97.3177547 58.5438405,10.7068782 34.6211198,0.908090135 C30.7511288,12.548262 -20.7074203,64.5563642 9.41260057,109.000001 C36.39181,148.80921 65.1559304,193.760022 59.1550929,213.713667 Z M25.540965,1.3576202 C22.8655903,2.64706296 19.8729074,4.81909052 16.6649771,7.71865506 C19.9223282,5.0488697 22.9119055,2.89685074 25.540965,1.3576202 Z" id="Oval-1" fill="url(#radialGradient-2)" transform="translate(55.292238, 107.310879) scale(-1, 1) translate(-55.292238, -107.310879) "></path>
+                <path d="M87.1538965,218.650746 C84.7971494,218.859601 82.4110303,218.966258 80,218.966258 C35.81722,218.966258 0,183.149038 0,138.966258 C0,95.58426 56.4628643,3.41914705 78.7985799,0.0925408054 C50.1949166,17.9048844 29.7089844,100.997365 29.7089844,144.748053 C29.7089844,188.930833 35.4656575,218.859375 79.6484375,218.859375 C82.120086,218.859375 84.6257602,218.789816 87.1539181,218.650745 Z" id="Oval-1" fill="url(#radialGradient-3)"></path>
+                <path d="M160,217.344101 C154.796976,218.40772 149.41004,218.966258 143.892651,218.966258 C99.7098713,218.966258 63.8926513,183.149038 63.8926513,138.966258 C63.8926513,94.783478 122.459234,-3.59219172e-15 143.892652,0 C144.027279,2.40887386e-17 144.16337,0.00373947261 144.300903,0.0111823904 C123.356482,4.11344098 99.8822733,70.6185559 88.9805421,109.571289 C77.7285895,149.775391 99.3583088,218.859375 143.541089,218.859375 C148.878306,218.859375 154.405902,218.338279 160,217.344101 Z" id="Oval-1" fill="url(#radialGradient-4)" transform="translate(111.946326, 109.483129) scale(-1, 1) translate(-111.946326, -109.483129) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

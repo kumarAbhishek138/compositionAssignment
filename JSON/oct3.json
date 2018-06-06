@@ -1,0 +1,48 @@
+[
+       {
+         "id":0,
+         "nanoObjectId":"http://nano.springer.com/data/M6256924",
+         "noCmp":"http://nano.springer.com/data/S10692",
+         "compNum":"1",
+         "image":"oct3",
+         "role":"core",
+         "itemType":"Single Compound",
+         "formula":"Si",
+         "name":"silicon",
+         "displayName":"silicon",
+         "pivotOrderNum":"1",
+         "x":135,
+         "y":122
+      },
+      {
+         "id":1,
+         "nanoObjectId":"http://nano.springer.com/data/M6256924",
+         "noCmp":"http://nano.springer.com/data/S30492",
+         "compNum":"2",
+         "image":"oct3",
+         "role":"layer",
+         "itemType":"Single Compound",
+         "formula":"H",
+         "name":"atomic hydrogen",
+         "displayName":"atomic hydrogen",
+         "pivotOrderNum":"2",
+         "x":159,
+         "y":121
+      },
+      {
+        "id":2,
+         "nanoObjectId":"http://nano.springer.com/data/M6256924",
+         "noCmp":"http://nano.springer.com/data/S1069238",
+         "compNum":"3",
+         "image":"oct3",
+         "role":"graft",
+         "itemType":"Single Compound",
+         "formula":"-C<sub>10</sub>H<sub>21</sub>",
+         "name":"1-decene moiety",
+         "displayName":"C10 straight alkyl",
+         "pivotOrderNum":"3",
+         "x":175,
+         "y":165
+      }
+
+]

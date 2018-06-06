@@ -1,0 +1,78 @@
+[
+    {
+    "id":0,
+    "nanoObjectId":"http://nano.springer.com/data/M7380491",
+    "noCmp":"http://nano.springer.com/data/S268999",
+    "compNum":"1",
+    "image":"sphi4",
+    "role":"core",
+    "itemType":"Single Compound",
+    "formula":"C<sub>14</sub>H<sub>30</sub>O",
+    "name":"1-tetradecanol",
+    "displayName":"myristyl alcohol",
+    "pivotOrderNum":"1",
+    "x":154,
+    "y":105
+    },
+    {
+    "id":1,
+     "nanoObjectId":"http://nano.springer.com/data/M7380491",
+     "noCmp":"http://nano.springer.com/data/S13542",
+     "compNum":"2",
+     "image":"sphi4",
+     "role":"loaded material",
+     "itemType":"Single Compound",
+     "formula":"C<sub>27</sub>H<sub>29</sub>NO<sub>11</sub>",
+     "name":"doxorubicin",
+     "displayName":"doxorubicin",
+     "pivotOrderNum":"2",
+     "x":155,
+     "y":125
+    },
+    {
+    "id":2,
+     "nanoObjectId":"http://nano.springer.com/data/M7380491",
+     "noCmp":"http://nano.springer.com/data/S10900",
+     "compNum":"3",
+     "image":"sphi4",
+     "role":"layer",
+     "itemType":"Single Compound",
+     "formula":"Au",
+     "name":"gold",
+     "displayName":"gold",
+     "pivotOrderNum":"3",
+     "x":182,
+     "y":131
+    },
+    {
+    "id":3,
+     "nanoObjectId":"http://nano.springer.com/data/M7380491",
+     "noCmp":"http://nano.springer.com/data/P7300485",
+     "compNum":"4",
+     "image":"sphi4",
+     "role":"layer",
+     "itemType":"Polymer",
+     "formula":null,
+     "name":"SV119-PEG-OPSS conjugate",
+     "displayName":"SV119-PEG-OPSS conjugate",
+     "pivotOrderNum":"4",
+     "x":205,
+     "y":149
+    },
+    {
+    "id":4,
+     "nanoObjectId":"http://nano.springer.com/data/M7380491",
+     "noCmp":"http://nano.springer.com/data/P7380486",
+     "compNum":"5",
+     "image":"sphi4",
+     "role":"layer",
+     "itemType":"Polymer",
+     "formula":null,
+     "name":"OPSS-PEG-SVA",
+     "displayName":"OPSS-PEG-SVA",
+     "pivotOrderNum":"5",
+     "x":210,
+     "y":175
+    }
+
+]

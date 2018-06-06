@@ -1,0 +1,187 @@
+.container {
+  margin: 50px; }
+  .container .Heading h3 {
+    background-color: #ecf2f4;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-size: 1rem; }
+  .container .Composition .Composition_description {
+    margin-bottom: 20px; }
+    .container .Composition .Composition_description .Composition_descText {
+      padding-top: 10px;
+      font-size: 14px;
+      font-size: 0.875rem;
+      color: #666666; }
+
+.Composition_body {
+  position: relative;
+  min-height: 300px; }
+  .Composition_body .Composition_canvas {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .Composition_body .Composition_pivot {
+    background-image: url("../images/dot.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 10px;
+    position: absolute; }
+  .Composition_body .Composition_pivotPointList {
+    position: absolute;
+    top: 35px;
+    left: 300px; }
+    .Composition_body .Composition_pivotPointList .PivotList_item {
+      margin-bottom: 23px; }
+      .Composition_body .Composition_pivotPointList .PivotList_item .PivotList_link {
+        border: 1px solid #666666;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        font-size: 16px;
+        font-size: 1rem;
+        color: #666666;
+        text-align: center;
+        background: #FFFFFF;
+        padding: 1px 3px 1px; }
+        .Composition_body .Composition_pivotPointList .PivotList_item .PivotList_link.active {
+          color: #FFFFFF;
+          background: #666666; }
+
+.PivotCount .PivotCount_DesktopCircle {
+  display: none; }
+.PivotCount .PivotCount_Title {
+  display: none; }
+
+.Components {
+  max-width: 350px; }
+  .Components .components_details {
+    position: relative;
+    border-top: 1px solid #d8d8d8;
+    padding: 15px 35px; }
+    .Components .components_details .Component_header h3 {
+      color: #069;
+      font-size: 14px;
+      font-size: 0.875rem;
+      cursor: pointer; }
+  .Components .greyCircle {
+    box-sizing: border-box;
+    border: 1px solid #d8d8d8;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #666666;
+    text-align: center;
+    font-size: 11px;
+    font-size: 0.6875rem;
+    padding: 3px;
+    cursor: pointer; }
+    .Components .greyCircle.active {
+      color: #FFFFFF;
+      background: #666666; }
+
+.components_details {
+  position: relative;
+  border-top: 1px solid #d8d8d8;
+  padding: 15px 35px; }
+  .components_details .greyCircle {
+    position: absolute;
+    left: 8px;
+    top: 16px; }
+  .components_details .Component_header h3 {
+    color: #069;
+    font-size: 14px;
+    font-size: 0.875rem;
+    cursor: pointer; }
+  .components_details .Component_bodyWrapper {
+    display: none; }
+
+.components_details.active {
+  border-top: 2px solid #EE7D11;
+  background: #f8f8f8;
+  padding: 15px 20px 15px 35px; }
+  .components_details.active .Component_header h3 {
+    color: #222;
+    font-size: 20px;
+    font-size: 1.25rem;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d8d8d8; }
+  .components_details.active .Component_header .CloseBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 12px;
+    background-image: url("../images/cross.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 18px; }
+  .components_details.active .Component_bodyWrapper {
+    display: block; }
+    .components_details.active .Component_bodyWrapper .Component_property {
+      margin-top: 20px; }
+      .components_details.active .Component_bodyWrapper .Component_property .Property_name {
+        display: block;
+        font-size: 14px;
+        font-size: 0.875rem;
+        font-weight: bold;
+        margin-bottom: 5px; }
+      .components_details.active .Component_bodyWrapper .Component_property .Property_value {
+        font-size: 14px;
+        font-size: 0.875rem;
+        font-weight: normal; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", arial, helvetica, sans-serif;
+  font-color: #222;
+  -webkit-font-smoothing: antialiased; }
+
+p {
+  line-height: 1.5;
+  font-weight: 400; }
+
+sub, sup {
+  font-size: xx-small; }
+
+a {
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+[
+ {
+         "id":0,
+         "nanoObjectId":"http://nano.springer.com/data/M8533314",
+         "noCmp":"http://nano.springer.com/data/S14010",
+         "compNum":"1",
+         "image":"carfilm",
+         "role":"raw materials",
+         "itemType":"Single Compound",
+         "formula":"C",
+         "name":"graphite",
+         "displayName":"graphite",
+         "pivotOrderNum":"1",
+         "x":72,
+         "y":90
+       },
+      {
+         "id":1,
+         "nanoObjectId":"http://nano.springer.com/data/M8533314",
+         "noCmp":"http://nano.springer.com/data/S8573312",
+         "compNum":"2",
+         "image":"carfilm",
+         "role":"loaded material",
+         "itemType":"Single Compound",
+         "formula":"Ne",
+         "name":"Ne atoms",
+         "displayName":"neon atom",
+         "pivotOrderNum":"2",
+         "x":124,
+         "y":105
+      }
+]

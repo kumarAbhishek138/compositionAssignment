@@ -1,0 +1,17 @@
+[
+  {
+  	"id":0,
+     "nanoObjectId":"http://nano.springer.com/data/M194899",
+     "noCmp":"http://nano.springer.com/data/S191884",
+     "compNum":"1",
+     "image":"rib",
+     "role":"raw materials",
+     "itemType":"Single Compound",
+     "formula":"C<sub>26</sub>H<sub>4</sub>N<sub>24</sub>",
+     "name":"C<sub>26</sub>H<sub>4</sub>N<sub>24</sub>",
+     "displayName":"C<sub>26</sub>H<sub>4</sub>N<sub>24</sub>",
+     "pivotOrderNum":"1",
+     "x":125,
+     "y":155
+  }
+]
