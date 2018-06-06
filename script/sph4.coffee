@@ -40,9 +40,9 @@ $(".Composition_image").attr("src", imageName)
 loadJSON = () ->
 	xobj = new XMLHttpRequest();
 	xobj.overrideMimeType("application/json");
-	#xobj.open('GET', '/Users/kuma138/Desktop/Composition Practice/JSON/'+imageJSON, true);
-	xobj.open('GET', '/Composition Practice/JSON/' + imageJSON, true);
-	#xobj.open('GET', '/Users/kuma138/Desktop/Assignments/Composition Practice/JSON/' + imageJSON, true);
+	#xobj.open('GET', '/Users/kuma138/Desktop/compositionAssignment/JSON/'+imageJSON, true);
+	xobj.open('GET', '/compositionAssignment/JSON/' + imageJSON, true);
+	#xobj.open('GET', '/Users/kuma138/Desktop/Assignments/compositionAssignment/JSON/' + imageJSON, true);
 	xobj.onreadystatechange = () ->
 		if xobj.readyState == 4 && xobj.status == 200
 			CompositionData = xobj.responseText
@@ -197,9 +197,24 @@ $('.Components').on 'click' , ".Component_header h3" , ".greyCircle" ,(el) ->
 
 	enablePivotPoint(parseInt(pivotPointNo.text()))
 
+$('.Composition_pivotPointList').on 'click' , ".PivotList_link" ,(el) ->
+	enablePivotPoint(parseInt($(el.target).text()))
+	enableComponent(parseInt($(el.target).text()))
+
+
+enableComponent = (pivotpointNumber) ->
+	pivotPointList =document.getElementsByClassName("greyCircle")
+	for pivotPoint in pivotPointList
+		if parseInt($(pivotPoint).text()) == pivotpointNumber
+			$(pivotPoint).toggleClass("active")
+			$(pivotPoint).parents(".components_details").toggleClass("active")
+		else
+			$(pivotPoint).parents(".components_details").removeClass("active")
+			$(pivotPoint).removeClass("active")
+
 enablePivotPoint = (pivotpointNumber)->
-	console.log("here")
 	pivotList = $(".PivotList_item")
+
 	for pivotPoint in pivotList.children(".PivotList_link")
 		if parseInt(pivotPoint.text) == pivotpointNumber
 			$(pivotPoint).toggleClass("active")
